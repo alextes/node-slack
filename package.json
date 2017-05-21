@@ -4,6 +4,7 @@
   "description": "Website for the community NodeJS Slack group.",
   "main": "index.js",
   "scripts": {
+    "start": "live-server --mount=/:public/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +17,9 @@
     "url": "https://github.com/AlexTes/node-slack/issues"
   },
   "homepage": "https://github.com/AlexTes/node-slack#readme",
-  "private": true
+  "private": true,
+  "dependencies": {},
+  "devDependencies": {
+    "live-server": "^1.2.0"
+  }
 }
