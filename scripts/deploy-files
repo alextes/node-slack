@@ -1,0 +1,3 @@
+#!/bin/sh
+
+rsync -rPh public root@51.15.53.238:~/node-slack/

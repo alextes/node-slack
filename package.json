@@ -4,6 +4,7 @@
   "description": "Website for the community NodeJS Slack group.",
   "main": "index.js",
   "scripts": {
+    "deploy": "sh scripts/deploy-files",
     "start": "live-server --mount=/:public/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
