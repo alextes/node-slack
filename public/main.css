@@ -52,6 +52,10 @@ footer {
   margin: 0 10% 1em 10%;
 }
 
+img {
+  margin: 5% auto;
+}
+
 .content {
   flex: 1;
   margin: 30% 10%;
