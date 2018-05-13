@@ -14,18 +14,22 @@
   </head>
   <body>
     <div class="panel-1">
-      <img src="assets/Logo 1B.svg" alt="">
-      <h1>Node Slackers</h1>
+      <img class="logo" src="assets/Logo 1B.svg" alt="logo">
     </div>
     <div class="panel-2">
+      <h1 class="title">Node Slackers</h1>
       <div class="content">
-        <p>We’re a friendly Slack community counting over 3,000 NodeJS developers. We learn, discuss or simply chat about NodeJS &amp; JavaScript and more.</p>
-        <form class="email-input" action="index.html" method="post" type="email">
-          <input id="email" type="text" class="mdl-textfield__input" placeholder="email">
-          <button type="button" name="email" class="join-button">Join Us</button>
+        <section>
+          <p class="description">a friendly Slack community of 3,000+ NodeJS developers 👋.</p>
+          <p class="description">Looking to learn NodeJS 🤓, discuss JavaScript 🤔, or join the mentorship program 👩‍🎓, then come join us!</p>
+        </section>
+        <form class="email-form" action="index.html" method="post" type="email">
+          <input type="text" class="email-form__input" placeholder="email">
+          <p class="email-form__description">We'll send the invite to your inbox.</p>
+          <button class="email-form__button" type="button" name="email">Join</button>
         </form>
       </div>
-      <footer>Designed in <strong>Figma</strong>. Coded in <strong>Atom</strong>. Built using <strong>VanillaJS</strong>. Hosted on <strong>Netlify</strong>.</footer>
+      <footer class="footer">Designed in <strong>Figma</strong>. Coded in <strong>Atom</strong>. Built using <strong>VanillaJS</strong>. Hosted on <strong>Netlify</strong>.</footer>
     </div>
   </body>
 </html>
