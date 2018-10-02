@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "deploy": "sh scripts/deploy-files",
-    "start": "live-server --mount=/:public/",
+    "start": "serve ./public",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,6 +21,6 @@
   "private": true,
   "dependencies": {},
   "devDependencies": {
-    "live-server": "^1.2.0"
+    "serve": "^10.0.2"
   }
 }
